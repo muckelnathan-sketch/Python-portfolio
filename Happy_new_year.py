@@ -7,8 +7,8 @@ import time
 def suprise():
     for i in range(10):
         print("Happy new Year!|", end="")
-        print("🥳 🎉 🎆 🚀🥳 🎉 🎆 🚀")
-        print({"resolution": "Get a Tech Job in IT with higher than 15 dollars an hour"})
+    print("🥳 🎉 🎆 🚀🥳 🎉 🎆 🚀")
+    print({"resolution": "Get a Tech Job in IT with higher than 15 dollars an hour"})
 
 # 1. Setup the triggers
 countdown = iter(range(10, 0, -1)) 
