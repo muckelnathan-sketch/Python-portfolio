@@ -9,8 +9,8 @@ def timer():
     how_long = input("how many seconds to wait: ")
     time.sleep(how_long) #sleep the amount of seconds  the user wishes, perhaps i could work in a system that finds how many minutes and seconds the user wants
     print("done!")
-while True:
-    mode = input("stopwatch or timer: ")
-    if mode == 'stopwatch':stopwatch();break 
-    if mode == 'timer':break; timer();break #using semi colons for a cleaner look
+while True: #implementing match case, also took a nap
+    match input("stopwatch or timer: "):
+        case 'stopwatch':stopwatch();break 
+        case 'timer':break; timer();break #using semi colons for a cleaner look
     #i think tmr i will begin to clean up the code , perhaps using match/case for simpler code
